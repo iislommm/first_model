@@ -1,0 +1,14 @@
+D:\project\firstModul\first_model\thirdLessonInFirstModul\bin\Debug\net8.0\thirdLessonInFirstModul.exe
+D:\project\firstModul\first_model\thirdLessonInFirstModul\bin\Debug\net8.0\thirdLessonInFirstModul.deps.json
+D:\project\firstModul\first_model\thirdLessonInFirstModul\bin\Debug\net8.0\thirdLessonInFirstModul.runtimeconfig.json
+D:\project\firstModul\first_model\thirdLessonInFirstModul\bin\Debug\net8.0\thirdLessonInFirstModul.dll
+D:\project\firstModul\first_model\thirdLessonInFirstModul\bin\Debug\net8.0\thirdLessonInFirstModul.pdb
+D:\project\firstModul\first_model\thirdLessonInFirstModul\obj\Debug\net8.0\thirdLessonInFirstModul.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\firstModul\first_model\thirdLessonInFirstModul\obj\Debug\net8.0\thirdLessonInFirstModul.AssemblyInfoInputs.cache
+D:\project\firstModul\first_model\thirdLessonInFirstModul\obj\Debug\net8.0\thirdLessonInFirstModul.AssemblyInfo.cs
+D:\project\firstModul\first_model\thirdLessonInFirstModul\obj\Debug\net8.0\thirdLessonInFirstModul.csproj.CoreCompileInputs.cache
+D:\project\firstModul\first_model\thirdLessonInFirstModul\obj\Debug\net8.0\thirdLessonInFirstModul.dll
+D:\project\firstModul\first_model\thirdLessonInFirstModul\obj\Debug\net8.0\refint\thirdLessonInFirstModul.dll
+D:\project\firstModul\first_model\thirdLessonInFirstModul\obj\Debug\net8.0\thirdLessonInFirstModul.pdb
+D:\project\firstModul\first_model\thirdLessonInFirstModul\obj\Debug\net8.0\thirdLessonInFirstModul.genruntimeconfig.cache
+D:\project\firstModul\first_model\thirdLessonInFirstModul\obj\Debug\net8.0\ref\thirdLessonInFirstModul.dll
