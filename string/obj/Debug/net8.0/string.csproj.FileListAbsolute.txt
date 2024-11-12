@@ -1,0 +1,15 @@
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\string.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\string.AssemblyInfoInputs.cache
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\string.AssemblyInfo.cs
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\string.csproj.CoreCompileInputs.cache
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\string.sourcelink.json
+D:\project\firstModul\first_model\string\bin\Debug\net8.0\string.exe
+D:\project\firstModul\first_model\string\bin\Debug\net8.0\string.deps.json
+D:\project\firstModul\first_model\string\bin\Debug\net8.0\string.runtimeconfig.json
+D:\project\firstModul\first_model\string\bin\Debug\net8.0\string.dll
+D:\project\firstModul\first_model\string\bin\Debug\net8.0\string.pdb
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\string.dll
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\refint\string.dll
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\string.pdb
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\string.genruntimeconfig.cache
+D:\project\firstModul\first_model\string\obj\Debug\net8.0\ref\string.dll
