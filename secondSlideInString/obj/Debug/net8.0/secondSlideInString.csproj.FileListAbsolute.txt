@@ -1,0 +1,15 @@
+D:\project\firstModul\first_model\secondSlideInString\bin\Debug\net8.0\secondSlideInString.exe
+D:\project\firstModul\first_model\secondSlideInString\bin\Debug\net8.0\secondSlideInString.deps.json
+D:\project\firstModul\first_model\secondSlideInString\bin\Debug\net8.0\secondSlideInString.runtimeconfig.json
+D:\project\firstModul\first_model\secondSlideInString\bin\Debug\net8.0\secondSlideInString.dll
+D:\project\firstModul\first_model\secondSlideInString\bin\Debug\net8.0\secondSlideInString.pdb
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\secondSlideInString.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\secondSlideInString.AssemblyInfoInputs.cache
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\secondSlideInString.AssemblyInfo.cs
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\secondSlideInString.csproj.CoreCompileInputs.cache
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\secondSlideInString.sourcelink.json
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\secondSlideInString.dll
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\refint\secondSlideInString.dll
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\secondSlideInString.pdb
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\secondSlideInString.genruntimeconfig.cache
+D:\project\firstModul\first_model\secondSlideInString\obj\Debug\net8.0\ref\secondSlideInString.dll

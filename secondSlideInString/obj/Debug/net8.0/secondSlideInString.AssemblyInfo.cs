@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("string")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("secondSlideInString")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ccce06d7955ddf636495310fe7385a3907f12ed")]
-[assembly: System.Reflection.AssemblyProductAttribute("string")]
-[assembly: System.Reflection.AssemblyTitleAttribute("string")]
+[assembly: System.Reflection.AssemblyProductAttribute("secondSlideInString")]
+[assembly: System.Reflection.AssemblyTitleAttribute("secondSlideInString")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

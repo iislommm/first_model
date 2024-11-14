@@ -1,4 +1,6 @@
-﻿namespace String;
+﻿using System;
+
+namespace String;
 
 internal class Program
 {
@@ -207,10 +209,12 @@ internal class Program
 
         //Console.Write("Enter word :");
         //var word = Console.ReadLine();
-        //Console.Write("7 x 6 =  ");
+        //Random random = new Random();
+        //int randomNumber2 = random.Next(9,1);
+        //Console.Write($"{randomNumber2}*{randomNumber2}  ");
         //var number = int.Parse(Console.ReadLine());
         //var check = false;
-        //if (number is 42)
+        //if (number == randomNumber2*randomNumber2)
         //{
         //    check = true;
         //}
@@ -241,10 +245,10 @@ internal class Program
         //var result = LastTwo(word);
         //Console.WriteLine(result);
 
-        Console.Write("Enter word :");
-        var word = Console.ReadLine();
-        var result = SeeColor(word);
-        Console.WriteLine(result);
+        //Console.Write("Enter word :");
+        //var word = Console.ReadLine();
+        //var result = SeeColor(word);
+        //Console.WriteLine(result);
 
 
 
