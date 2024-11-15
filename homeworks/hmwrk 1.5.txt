@@ -1,0 +1,47 @@
+1
+ namespace ConsoleApp3
+ {
+     internal class Program
+     {
+         //chiqmadi
+         static void Main(string[] texts)
+         {
+             Console.Write("Enter length :");
+             var length = int.Parse(Console.ReadLine());
+             var numbers = FillAndGetList(length);
+             //Console.Write(numbers);
+             CountEvenElements(numbers);
+             DisplayList(numbers);
+         }
+         public static List<int> FillAndGetList(int length)
+         {
+             var digit = new List<int>();
+             for (var i = 0; i < length; ++i)
+             {
+                 var number = int.Parse(Console.ReadLine());
+                 digit.Add(number);
+             }
+             return digit;
+         }
+         // logic 
+         public static void CountEvenElements(List<int> numbers)
+         {
+             var counter = 0;
+             foreach (var number in numbers)
+             {
+                 if (100 <= numbers[number] && numbers[number] <= 999)
+                 {
+                     counter ++;
+                 }
+             }
+             Console.WriteLine(counter);
+         }
+         public static void DisplayList(List<int> digits)
+         {
+             foreach (var digit in digits)
+             {
+                 Console.Write($"{digit} ");
+             }
+         }
+     }
+ }
