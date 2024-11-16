@@ -45,3 +45,720 @@
          }
      }
  }
+
+
+ //          2nd task
+        /**
+        static void Main(string[] args)
+        {
+            Console.Write("Enter amount >> ");
+            var number = int.Parse(Console.ReadLine());
+            var collectedNUmbers = FillAndGetback(number);
+            CollectEvenNumbers(collectedNUmbers);
+        }
+
+        public static void CollectEvenNumbers(List<int> digits)
+        {
+            var newCollector = 0;
+
+            foreach(var num in digits)
+            {
+                if(num % 2 == 0)
+                {
+                    newCollector++;
+                }
+            }
+            Console.WriteLine($"  {newCollector} ta juft sonlar mavjud.");
+        }
+
+
+        public static List<int> FillAndGetback(int collector)
+        {
+            var collection = new List<int>();
+
+            for(var i = 0; i < collector; i++)
+            {
+                var numbers = int.Parse(Console.ReadLine());
+                collection.Add(numbers);
+            }
+            return collection;
+        }
+        
+        public static void DisplayToConsole(List<int> outer)
+        {
+            foreach(var num in outer)
+            {
+                Console.WriteLine($"{num} ");
+            }
+            Console.WriteLine();
+        }
+        */
+
+
+
+
+
+
+
+        // _________________________________________________________________________________________
+
+
+
+
+
+
+
+        //          3rd task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write("Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var readyListNumbers = FillAndReturn(amount);
+            SummaryOfOddnumbers(readyListNumbers);
+        }
+
+        public static void SummaryOfOddnumbers(List<int> result)
+        {
+            var resOfCollection = 0;
+
+            foreach(var num in result)
+            {
+                if(num % 2 != 0)
+                {
+                    resOfCollection += num;
+                }
+            }
+            Console.WriteLine($" Result >> {resOfCollection}");
+        }
+
+        public static List<int> FillAndReturn(int numbers)
+        {
+            var collection = new List<int>();
+
+            for(var i = 0; i < numbers; i++)
+            {
+                var digit = int.Parse(Console.ReadLine());
+                collection.Add(digit);
+            }
+            return collection;
+        }
+
+        public static void DisplayToConsole(List<int> outer)
+        {
+            foreach(var num in outer)
+            {
+                Console.WriteLine($"{num} ");
+            }
+            Console.WriteLine();
+        }
+        */
+
+
+
+
+
+
+        // _________________________________________________________________________________________
+
+
+
+
+
+
+
+        //          4th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($"Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var readyListedNumbers = FillAndReturn(amount);
+            ResultOfThreeAndFive(readyListedNumbers);
+        }
+
+        public static void ResultOfThreeAndFive(List<int> numbers)
+        {
+            var amntOfdigits = 0;
+            foreach(var num in numbers)
+            {
+                if(num % 3 == 0 && num % 7 == 0)
+                {
+                    amntOfdigits++;
+                }
+            }
+            Console.WriteLine($"Result >> {amntOfdigits}");
+        }
+
+        public static List<int> FillAndReturn(int digits)
+        {
+            var collection = new List<int>();
+
+            for(var i = 0; i < digits; i++)
+            {
+                var number = int.Parse(Console.ReadLine());
+                collection.Add(number);
+            }
+            return collection;
+        }
+
+        public static void DisplayAndOut(List<int> collect)
+        {
+            foreach(var num in collect)
+            {
+                Console.WriteLine($"{num} ");
+            }
+            Console.WriteLine();
+        }
+        */
+
+
+
+
+
+
+
+
+        // _________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+        //          5th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write("Enter amount of List >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndReturn(amount);
+            CollecAndAddOfOddNumbers(result);
+        }
+
+        public static void CollecAndAddOfOddNumbers(List<int> numbers)
+        {
+            var collect = 0;
+            var summary = 0;
+            
+            for(var i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] % 2 != 0)
+                {
+                    collect++;
+                    summary += numbers[i];
+                }
+            }
+            Console.WriteLine($" Result for amount of ODD numbers >> {collect}");
+            Console.WriteLine($" Sum of ODD numbers >> {summary}");
+        }
+
+        public static List<int> FillAndReturn(int numbers)
+        {
+            var collection = new List<int>();
+
+            for (var i = 0; i < numbers; i++)
+            {
+                var digits = int.Parse(Console.ReadLine());
+                collection.Add(digits);
+            }
+            return collection;
+        }
+
+        public static void DisplayAndOutConsole(List<int> outer)
+        {
+            foreach(var num in outer)
+            {
+                Console.WriteLine($"{num} ");
+            }
+            Console.WriteLine();
+        }
+        */
+
+
+
+
+
+
+        // _________________________________________________________________________________________
+
+
+
+
+
+
+        //          6th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            SwapNumbers(result);
+            DisplayNumbers(result);
+        }
+
+        public static List<int> FillAndOuter(int number)
+        {
+            var collection = new List<int>();
+
+            for (var i = 0; i < number; i++)
+            {
+                var digits = int.Parse(Console.ReadLine());
+                collection.Add(digits);
+            }
+            return collection;
+        }
+
+        // Main Logic
+        public static void SwapNumbers(List<int> numbers)
+        {
+            var temp = 0;
+
+            temp = numbers[0];
+            numbers[0] = numbers[numbers.Count - 1];
+            numbers[numbers.Count - 1] = temp;
+        }
+
+        public static void DisplayNumbers(List<int> digits)
+        {
+            foreach(var num in digits)
+            {
+                Console.Write($"{num} ");
+            }
+        }
+        */
+
+
+
+
+
+
+
+
+
+
+        // _________________________________________________________________________________________
+
+
+
+
+
+
+
+
+        //          7th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            FirstThreeElements(result);
+        }
+
+        // Main logic
+        public static void FirstThreeElements(List<int> numbers)
+        {
+            var summary = numbers[0] + numbers[1] + numbers[2];
+            Console.WriteLine($" Result >> {summary}");
+        }
+
+
+        // Filling all List elements
+        public static List<int> FillAndOuter(int number)
+        {
+            var collection = new List<int>();
+
+            for (var i = 0; i < number; i++)
+            {
+                var digits = int.Parse(Console.ReadLine());
+                collection.Add(digits);
+            }
+            return collection;
+        }
+        */
+
+
+
+
+
+
+
+        // _________________________________________________________________________________________
+
+
+
+
+
+
+
+        //          8th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            LastThreeElements(result);
+        }
+
+        public static void LastThreeElements(List<int> numbers)
+        {
+            var summary = numbers[numbers.Count - 3] + numbers[numbers.Count - 2] + numbers[numbers.Count - 1];
+            Console.WriteLine($" Result of summary the last three elements >> {summary}");
+        }
+        */
+
+
+
+
+
+
+        // _________________________________________________________________________________________
+
+
+
+
+
+
+
+        //          9th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            OddNumsShouldBeTrue(result);
+        }
+
+        public static void OddNumsShouldBeTrue(List<int> numbers)
+        {
+            var oddNumbers = 0;
+            var evenNumbers = 0;
+            var check = false;
+
+            foreach (var num in numbers)
+            {
+                if (num % 2 != 0)
+                {
+                    oddNumbers++;
+                }
+                else
+                {
+                    evenNumbers++;
+                }
+            }
+            if (oddNumbers > evenNumbers)
+            {
+                check = true;
+            }
+            else
+            {
+                check = false;
+            }
+            Console.WriteLine($" Result >> {check}");
+        */
+
+
+
+
+
+
+
+
+        // _________________________________________________________________________________________
+
+
+
+
+
+
+
+
+        //          10th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            MultipyEvenNumbersForThreeTimes(result);
+            DisplayToConsole(result);
+        }
+
+
+
+        public static void MultipyEvenNumbersForThreeTimes(List<int> numbers)
+        {
+            for(var i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] % 2 == 0)
+                {
+                    numbers[i] *= 3;
+                }
+            }
+        }
+        */
+
+
+
+
+
+
+
+
+        // _________________________________________________________________________________________
+
+
+
+
+
+
+
+
+        //          11th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            AllElementsFive(result);
+        }
+
+
+        public static void AllElementsFive(List<int> numbers)
+        {
+            var trueFalse = true;
+
+            foreach(var num in numbers)
+            {
+                if(num % 5 != 0)
+                {
+                    trueFalse = false;
+                }
+            }
+            Console.WriteLine($" Result >> {trueFalse}");
+        }
+        */
+
+
+
+
+
+
+
+
+
+
+        //          12th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            FirstThreeElementsWithTwoDigits(result);
+        }
+
+        public static void FirstThreeElementsWithTwoDigits(List<int> numbers)
+        {
+            var trueFalse = false;
+
+                if ((numbers[0] > 9 && numbers[0] < 100)
+                && (numbers[1] > 9 && numbers[1] < 100)
+                && (numbers[2] > 9 && numbers[2] < 100))
+                {
+                    trueFalse = true;
+                }
+            
+            Console.WriteLine($" Result >> {trueFalse}");
+        }
+        */
+
+
+
+
+
+
+
+
+        //          13th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            TwoDigitsOfBeginningAndLastPart(result);
+        }
+
+        public static void TwoDigitsOfBeginningAndLastPart(List<int> numbers)
+        {
+            var trueFalse = false;
+
+            if (numbers[0] % 2 != 0 && numbers[1] % 2 != 0 
+                && numbers[numbers.Count-1] % 2 != 0 
+                && numbers[numbers.Count-2] % 2 != 0)
+            {
+                trueFalse = true;
+            }
+
+            Console.WriteLine($" Result >> {trueFalse}");
+        }
+        */
+
+
+
+
+
+
+
+
+
+        //          14th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            TheSamllestElementInTheList(result);
+        }
+
+
+        public static void TheSamllestElementInTheList(List<int> numbers)
+        {
+            var miniElement = int.MaxValue;
+
+            foreach(var num in numbers)
+            {
+                if(num < miniElement)
+                {
+                    miniElement = num;
+                }
+            }
+            Console.WriteLine($" Result >> {miniElement}");
+        }
+        */
+
+
+
+
+
+
+        //          15th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            TheSamllestElementInTheList(result);
+        }
+
+
+        public static void TheSamllestElementInTheList(List<int> numbers)
+        {
+            var miniElement = int.MaxValue;
+            var maxxElement = int.MinValue;
+
+            foreach (var num in numbers)
+            {
+                if (num < miniElement)
+                {
+                    miniElement = num;
+                }
+
+                if (num > maxxElement)
+                {
+                    maxxElement = num;
+                }
+            }
+            Console.WriteLine($" Result of the smallest digit >> {miniElement}");
+            Console.WriteLine($" Result of the biggest digit >> {maxxElement}");
+            Console.WriteLine($" Result of the summary >> {maxxElement + miniElement}");
+        }
+        */
+
+
+
+
+
+
+
+
+
+        //          16th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            MakeMoreHundredTimesEachNumberThatWithTwoDigits(result);
+            DisplayToConsole(result);
+        }
+
+        public static void MakeMoreHundredTimesEachNumberThatWithTwoDigits(List<int> numbers)
+        {
+            for(var i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] < 100 && numbers[i] > 9)
+                {
+                    numbers[i] *= 100;
+                }
+            }
+        }
+        public static void DisplayToConsole(List<int> outer)
+        {
+            for (var i = 0; i < outer.Count; i++)
+            {
+                Console.WriteLine($" {i} >> {outer[i]}");
+            }
+            Console.WriteLine();
+        }
+        */
+
+
+
+
+
+
+        //          17th task
+        /**
+        static void Main(string[] arg)
+        {
+            Console.Write($" Enter amount >> ");
+            var amount = int.Parse(Console.ReadLine());
+            var result = FillAndOuter(amount);
+            CollectPositiveAndNegativeNumbers(result);
+        }
+
+        public static void CollectPositiveAndNegativeNumbers(List<int> numbers)
+        {
+            var positive = 0;
+            var negative = 0;
+
+            foreach(var num in numbers)
+            {
+                if(num < 0)
+                {
+                    negative++;
+                }
+                else
+                {
+                    positive++;
+                }
+            }
+            Console.WriteLine($" Manfiy sonlar >> {negative}");
+            Console.WriteLine($" Musbat sonlar >> {positive}");
+        }
+        */
+
+
