@@ -3,7 +3,7 @@
  {
      internal class Program
      {
-         //chiqmadi
+        
          static void Main(string[] texts)
          {
              Console.Write("Enter length :");
