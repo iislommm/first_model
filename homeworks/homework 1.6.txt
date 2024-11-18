@@ -1,0 +1,144 @@
+namespace g10;
+
+internal class Program
+{
+    public static List<string> PassportSeries = new List<string>();
+    public static void DataSeed()
+    {
+        PassportSeries.Add("AD8521478");
+        PassportSeries.Add("AD4523698");
+        PassportSeries.Add("AD7894563");
+        PassportSeries.Add("AD9638521");
+        PassportSeries.Add("AD7412589");
+        PassportSeries.Add("AD3214589");
+    }
+    static void Main(string[] texts)
+    {
+        DataSeed();
+        FrontEnd();
+    }
+    public static void FrontEnd()
+    {
+        while (true)
+        {
+            Console.WriteLine("1. Add serie");
+            Console.WriteLine("2. Delete serie");
+            Console.WriteLine("3. Read serie");
+            Console.WriteLine("4. Update serie");
+            Console.Write("Choose : ");
+            var opinion = int.Parse(Console.ReadLine());
+            if (opinion == 1)
+            {
+                Console.Write("Enter serie : ");
+                var passportSeries = Console.ReadLine();
+                var index = AddSeries(passportSeries);
+
+                if (index == -1)
+                {
+                    Console.WriteLine("Not added :( ");
+                }
+                else
+                {
+                    Console.WriteLine($"Added successfully, your index : {index}");
+                }
+            }
+            else if (opinion == 2)
+            {
+                Console.Write("Enter the serie you want to delete : ");
+                var passportSerie = Console.ReadLine();
+                var result = DeleteSeies(passportSerie);
+                if (result is true)
+                {
+                    Console.WriteLine("Deleted successfully");
+                }
+                else
+                {
+                    Console.WriteLine("we are sorry, something went wrong");
+                }
+            }
+            else if (opinion == 4)
+            {
+                Console.Write("Enter old serie : ");
+                var oldSerie = Console.ReadLine();
+                Console.Write("Enter new serie : ");
+                var newSerie = Console.ReadLine();
+                var result = UpdateSeries(oldSerie, newSerie);
+                if (result is true)
+                {
+                    Console.WriteLine("Updated successfully");
+                }
+                else
+                {
+                    Console.WriteLine("we are sorry, something went wrong");
+                }
+            }
+            else if (opinion == 3)
+            {
+                var series = GetPassportSeries();
+                foreach (var serie in series)
+                {
+                    Console.WriteLine(serie);
+                }
+            }
+            Console.ReadKey();
+            Console.Clear();
+        }
+    }
+    public static int AddSeries(string series)
+    {
+        var exist = PassportSeries.Contains(series);
+        var ValidForm = CheckSeries(series);
+
+        if (exist is true || ValidForm is false)
+        {
+            return -1;
+        }
+
+        series = series.ToUpper();
+        PassportSeries.Add(series);
+        return PassportSeries.Count - 1;
+        }
+    public static bool CheckSeries(string series)
+    {
+        var firstCheck = series[0] == 'a' || series[0] == 'A';
+        var secondCheck = Char.IsLetter(series[1]);
+        var thirdCheck = series.Length == 9;
+        var fourthCheck = true;
+        for (var i = 2; i < series.Length; i++)
+        {
+            if (Char.IsDigit(series[i]) is false)
+            {
+                fourthCheck = false;
+                break;
+            }
+        }
+        return firstCheck && secondCheck && thirdCheck && fourthCheck;
+    }
+    public static bool DeleteSeies(string series)
+    {
+        var exist = PassportSeries.Contains(series);
+        PassportSeries.Remove(series);
+        return exist;
+    }
+    public static bool UpdateSeries(string OldSeries, string NewSeries)
+    {
+        var index = PassportSeries.IndexOf(OldSeries);
+        var boolResult = false;
+        var ValidForm = CheckSeries(NewSeries);
+        if (index < 0 || ValidForm is false)
+        {
+            return boolResult;
+        }
+        NewSeries = NewSeries.ToUpper();
+        PassportSeries[index] = NewSeries;
+        boolResult = true;
+        return boolResult;
+    }
+    public static List<string> GetPassportSeries()
+    {
+        return PassportSeries;
+    }
+
+
+}
+
