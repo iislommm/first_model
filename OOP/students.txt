@@ -1,0 +1,71 @@
+using ConsoleApp3;
+using System.Net.WebSockets;
+
+namespace g10;
+
+internal class Program
+{
+    
+   
+    static void Main(string[] texts)
+    {
+        var students = new List<Student>();
+        var firstStudent = new Student();
+
+        firstStudent.Name = "Islom";
+        firstStudent.SecondName = "O'ktamaliyev";
+        firstStudent.Age = 18;
+        firstStudent.Sex = "Erkag";
+        firstStudent.UniversityName = "TSUE";
+        firstStudent.Degree = "1-course";
+        firstStudent.Height = 1.90;
+
+
+        var secondStudent = new Student();
+        secondStudent.Name = "Boymurod";
+        secondStudent.SecondName = "Mamarajapov";
+        secondStudent.Age = 24;
+        secondStudent.Sex = "Erkag";
+        secondStudent.UniversityName = "ISFT";
+        secondStudent.Degree = "4-course";
+        secondStudent.Height = 1.78;
+
+        var thirdStudent = new Student()
+        {
+            Name = "Ikrom",
+            SecondName = "Bahtiyorov",
+            Age = 18,
+            Sex = "Erkag",
+            UniversityName = "Tansport",
+            Degree = "1-course",
+            Height = 1.76,
+        };
+        var fourthStudent = new Student()
+        {
+            Name = "Ibrohim",
+            SecondName = "Olimov",
+            Age = 18,
+            Sex = "Erkag",
+            UniversityName = "WestMinister",
+            Degree = "1-course",
+            Height = 1.75,
+        };
+        var fifthStudent = new Student()
+        {
+            Name = "Zebo",
+            SecondName = "Bahodirovna",
+            Age = 18,
+            Sex = "Ayol",
+            UniversityName = "Diplomatiya",
+            Degree = "1-course",
+            Height = 1.70,
+        };
+        firstStudent.DisplayInfo();
+        secondStudent.DisplayInfo();
+        thirdStudent.DisplayInfo();
+        fourthStudent.DisplayInfo();
+        fifthStudent.DisplayInfo();
+    }
+   
+    
+}
