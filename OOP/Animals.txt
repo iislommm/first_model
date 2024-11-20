@@ -1,0 +1,169 @@
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+
+        static void Main(string[] args)
+        {
+            var lion = new Animals()
+            {
+                Name = "Lion",
+                Country = "Kenya",
+                Ability = "Strong hunter",
+                MaxAge = 14,
+                Weight = 220,
+                Speed = 80,
+                Food = "Zebra",
+                Type = "Mammal",
+                Color = "Orange",
+
+            };
+            var tiger = new Animals()
+            {
+                Name = "Tiger",
+                Country = "India, China and other parts of Southeast Asia",
+                Ability = "strong hunter, capable of running at high speeds for short distances",
+                MaxAge = 25,
+                Weight = 300,
+                Speed = 80,
+                Food = "deer",
+                Color = "Orange with black stripes",
+            };
+            var gorilla = new Animals()
+            {
+                Name = "Gorilla",
+                Country = "Congo",
+                Ability = "Strong and  climber",
+                MaxAge = 40,
+                Weight = 220,
+                Speed = 40,
+                Food = "fruits and insects",
+                Type = "Mammal",
+                Color = "black"
+
+            };
+            var zebra = new Animals()
+            {
+                Name = "Zebra",
+                Country = "Africa",
+                Ability = "fast runner and good vision",
+                MaxAge = 30,
+                Weight = 450,
+                Speed = 65,
+                Food = "grass",
+                Type = "Mammal",
+                Color = "Black and White",
+            };
+            var giraffe = new Animals()
+            {
+                Name = "Giraffe",
+                Country = "Africa",
+                Ability = "Tallest mammal ",
+                MaxAge = 30,
+                Weight = 1200,
+                Speed = 60,
+                Food = "fruits and leaves",
+                Type = "Mammal",
+                Color = "Light brown with dark spots",
+            };
+            var crocodile = new Animals()
+            {
+                Name = "Crocodile",
+                Country = "America and Asia",
+                Ability = "Excellent swimmer, powerful bite, cold-blooded ",
+                MaxAge = 70,
+                Weight = 1000,
+                Speed = 32,
+                Food = "fish and birds",
+                Type = "Reptile",
+                Color = "green with dark patterns",
+            };
+            var kangaroo = new Animals()
+            {
+                Name = "Kangaroo",
+                Country = "Australis",
+                Ability = "good balance, strong hind legs",
+                MaxAge = 8,
+                Weight = 90,
+                Speed = 60,
+                Food = "Grass",
+                Type = "mammal",
+                Color = "brown",
+            };
+            var shark = new Animals()
+            {
+                Name = "Shark",
+                Country = "Ocean",
+                Ability = " great sense of smell",
+                MaxAge = 30,
+                Weight = 2000,
+                Speed = 50,
+                Food = "Fish and Delphin",
+                Type = "fish",
+                Color = "gray or white",
+            };
+            var elephant = new Animals()
+            {
+                Name = "Elephant",
+                Country = "India",
+                Ability = " strong and excelent memory",
+                MaxAge = 70,
+                Weight = 6800,
+                Speed = 40,
+                Food = "Grass and Fruit",
+                Type = "mammal",
+                Color = "gray",
+            };
+            var dog = new Animals()
+            {
+                Name = "Dog",
+                Country = "Worldwide",
+                Ability = " Loyal and good sense of smell",
+                MaxAge = 15,
+                Weight = 50,
+                Speed = 50,
+                Food = "Food",
+                Type = "mammal",
+                Color = "various",
+            };
+            var cheetah = new Animals()
+            {
+                Name = "Cheeyah",
+                Country = "Africa and Iran",
+                Ability = " Fastest land animal",
+                MaxAge = 12,
+                Weight = 55,
+                Speed = 120,
+                Food = "gazelles and impalas",
+                Type = "mammal",
+                Color = "Yellow with black spots",
+            };
+
+
+            lion.DisplayAnimals();
+            lion.FavoriteTypeOfFood();
+            tiger.DisplayAnimals();
+            tiger.FavoriteTypeOfFood();
+            gorilla.DisplayAnimals();
+            gorilla.FavoriteTypeOfFood();
+            zebra.DisplayAnimals();
+            zebra.FavoriteTypeOfFood();
+            giraffe.DisplayAnimals();
+            giraffe.FavoriteTypeOfFood();
+            crocodile.DisplayAnimals();
+            crocodile.FavoriteTypeOfFood();
+            kangaroo.DisplayAnimals();
+            kangaroo.FavoriteTypeOfFood();
+            shark.DisplayAnimals();
+            shark.FavoriteTypeOfFood();
+            elephant.DisplayAnimals();
+            elephant.FavoriteTypeOfFood();
+            dog.DisplayAnimals();
+            dog.FavoriteTypeOfFood();
+            cheetah.DisplayAnimals();
+            cheetah.FavoriteTypeOfFood();
+
+        }
+    }
+}
+
