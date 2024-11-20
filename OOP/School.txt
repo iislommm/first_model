@@ -1,0 +1,89 @@
+namespace ConsoleApp1;
+
+internal class Program
+{
+
+    static void Main(string[] args)
+    {
+        var uzbekSchool = new School()
+        {
+            Country = "Uzbekistan",
+            Type = "Public",
+            Adventages = "Free",
+            Disadventages = "There are some unnecessary lessons",
+            SchoolStarts = 8,
+            SchoolEnds = 14,
+            PupilsStartsAt = 7,
+            PupilsEndsAt = 18,
+        };
+        var finlandSchool = new School()
+        {
+            Country = "Finland",
+            Type = "Public",
+            Adventages = "Free,no homework, focus on creativety and equality",
+            Disadventages = "May not challenge high-achieving students",
+            SchoolStarts = 9,
+            SchoolEnds = 14,
+            PupilsStartsAt = 8,
+            PupilsEndsAt = 15,
+        };
+        var japanSchool = new School()
+        {
+            Country = "Japan",
+            Type = "Public",
+            Adventages = "Focus on dicipline,sthics and teamwork",
+            Disadventages = "Highly dstructured and competitive",
+            SchoolStarts = 8,
+            SchoolEnds = 15,
+            PupilsStartsAt = 7,
+            PupilsEndsAt = 19,
+        };
+        var germanySchool = new School()
+        {
+            Country = "Germany",
+            Type = "Public/Private",
+            Adventages = "Relaxed and flexible, promotes independent learning",
+            Disadventages = "Less focus on structure, may not suit all learning styles  ",
+            SchoolStarts = 8,
+            SchoolEnds = 14,
+            PupilsStartsAt = 8,
+            PupilsEndsAt = 14,
+        };
+        var IndianSchool = new School()
+        {
+            Country = "India",
+            Type = "Traditional(Private)",
+            Adventages = "Focus on spirituality, discipline, and cultural values",
+            Disadventages = "Not suitable for modern academic or technical needs",
+            SchoolStarts = 6,
+            SchoolEnds = 12,
+            PupilsStartsAt = 6,
+            PupilsEndsAt = 18,
+        };
+        var denmarkSchool = new School()
+        {
+            Country = "Denmark",
+            Type = "Public",
+            Adventages = "Relaxed and flexible, promotes independent learning",
+            Disadventages = "Less focus on structure, may not suit all learning styles",
+            SchoolStarts = 9,
+            SchoolEnds = 15,
+            PupilsStartsAt = 8,
+            PupilsEndsAt = 16,
+        };
+        uzbekSchool.Display();
+        uzbekSchool.SchoolTime();
+        finlandSchool.Display();
+        finlandSchool.SchoolTime();
+        japanSchool.Display();
+        japanSchool.SchoolTime();
+        germanySchool.Display();
+        germanySchool.SchoolTime();
+        IndianSchool.Display();
+        IndianSchool.SchoolTime();
+        denmarkSchool.Display();
+        denmarkSchool.SchoolTime();
+    }
+}
+
+
