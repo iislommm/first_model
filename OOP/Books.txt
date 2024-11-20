@@ -1,0 +1,93 @@
+namespace ConsoleApp1;
+
+internal class Program
+{
+
+    static void Main(string[] args)
+    {
+        var harryPoter = new Book()
+        {
+            Name = "Harry poter",
+            Author = "Joanne Rowling",
+            ReleaseYear = 1997,
+            Pages = 317,
+            Genre = "Story",
+        };
+        var theHobbit = new Book()
+        {
+            Name = "TheHobbit",
+            Author = "J.R.R.Tolkien",
+            ReleaseYear = 1937,
+            Pages = 310,
+            Genre = "Fantasy",
+        };
+        var theGreatGatsby = new Book()
+        {
+            Name = "The Great Gatsby",
+            Author = "F. Scott Fitzgerald",
+            ReleaseYear = 1925,
+            Pages = 180,
+            Genre = "Fiction",
+        };
+        var prideAndPrejudice = new Book()
+        {
+            Name = "Pride and Prejudice",
+            Author = "Jane Austen",
+            ReleaseYear = 1813,
+            Pages = 279,
+            Genre = "Romance",
+        };
+        var dracula = new Book()
+        {
+            Name = "Dracula",
+            Author = "Bram Stoker",
+            ReleaseYear = 1897,
+            Pages = 416,
+            Genre = "Horror",
+        };
+        var frankenstein = new Book()
+        {
+            Name = "Frankenstein",
+            Author = "Mary Shelley",
+            ReleaseYear = 1818,
+            Pages = 280,
+            Genre = "Gothic fiction",
+        };
+        var theShining = new Book()
+        {
+            Name = "The Shining",
+            Author = "Stephen King",
+            ReleaseYear = 1977,
+            Pages = 477,
+            Genre = "Horro",
+        };
+        var richDadPoorDad = new Book()
+        {
+            Name = "Rich Dad Poor Dad",
+            Author = "Robert Kiyosaki",
+            ReleaseYear = 1997,
+            Pages = 207,
+            Genre = "Personal Finance/Self-Help",
+        };
+
+        harryPoter.DisplayBook();
+        harryPoter.Age();
+        theHobbit.DisplayBook();
+        theHobbit.Age();
+        theGreatGatsby.DisplayBook();
+        theGreatGatsby.Age();
+        prideAndPrejudice.DisplayBook();
+        prideAndPrejudice.Age();
+        dracula.DisplayBook();
+        dracula.Age();
+        frankenstein.DisplayBook();
+        frankenstein.Age();
+        theShining.DisplayBook();
+        theShining.Age();
+        richDadPoorDad.DisplayBook();
+        richDadPoorDad.Age();
+
+
+    }
+}
+
