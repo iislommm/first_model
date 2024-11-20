@@ -1,0 +1,69 @@
+using System.ComponentModel.DataAnnotations;
+using System.Net.Http.Headers;
+
+namespace ConsoleApp1;
+
+internal class Program
+{
+
+    static void Main(string[] args)
+    {
+        var iphone11 = new Phone()
+        {
+            Model = "Iphone",
+            ReleasedYear = 2019,
+            Battery = 3110,
+            Screen = "Liquid Retina IPS LCD",
+            Storage = 128,
+            RAM = 4,
+        };
+        var iphoneXr = new Phone()
+        {
+            Model = "Iphone",
+            ReleasedYear = 2018,
+            Battery = 2942,
+            Screen = "Liquid Retina IPS LCD",
+            Storage = 128,
+            RAM = 3,
+        };
+        var redmiNote10 = new Phone()
+        {
+            Model = "Redmi",
+            ReleasedYear = 2021,
+            Battery = 5000,
+            Screen = "AMOLED",
+            Storage = 64,
+            RAM = 4,
+        };
+        var samsungA31 = new Phone()
+        {
+            Model = "Samsung",
+            ReleasedYear = 2020,
+            Battery = 5000,
+            Screen = "Super AMOLED",
+            Storage = 64,
+            RAM = 6,
+        };
+        var Samsungj2 = new Phone()
+        {
+            Model = "Samsung",
+            ReleasedYear = 2015,
+            Battery = 2000,
+            Screen = "Super AMOLED",
+            Storage = 16,
+            RAM = 1,
+        };
+        iphone11.DisplayPhone();
+        iphone11.AgePhone();
+        iphoneXr.DisplayPhone();
+        iphoneXr.AgePhone();
+        redmiNote10.DisplayPhone();
+        redmiNote10.AgePhone();
+        samsungA31.DisplayPhone();
+        samsungA31.AgePhone();
+        Samsungj2.DisplayPhone();
+        Samsungj2.AgePhone();
+
+    }
+}
+
