@@ -1,0 +1,79 @@
+namespace ConsoleApp1;
+
+internal class Program
+{
+
+    static void Main(string[] args)
+    {
+        var mansion = new House()
+        {
+            TypeHouse = "Mansion",
+            Adventage = "Spacious living areas and luxurious amenities",
+            Disadventage = "High maintenance costs and expensive to heat or cool ",
+            Tolerance = 70,
+            FoundedYear = 1885,
+        }; var bungalow = new House()
+        {
+            TypeHouse = "Bungakow",
+            Adventage = "Ofter surrounded by a garden",
+            Disadventage = "Limited space",
+            Tolerance = 50,
+            FoundedYear = 1651,
+        };
+        var cottage = new House()
+        {
+            TypeHouse = "Cottage",
+            Adventage = "Cozy and vacation house",
+            Disadventage = "may have limited space",
+            Tolerance = 102,
+            FoundedYear = 1856,
+        };
+        var farmhouse = new House()
+        {
+            TypeHouse = "Farmhouse",
+            Adventage = "Large land area",
+            Disadventage = "requires a lot of maintenance",
+            Tolerance = 135,
+            FoundedYear = 1862,
+        };
+        var mobileHouse = new House()
+        {
+            TypeHouse = "Mobile House",
+            Adventage = "Movable",
+            Disadventage = "Less duarble",
+            Tolerance = 54,
+            FoundedYear = 1989,
+        };
+        var townHouse = new House()
+        {
+            TypeHouse = "Town House",
+            Adventage = "low maintenance",
+            Disadventage = "shared walls with neighbors",
+            Tolerance = 69,
+            FoundedYear = 1889,
+        };
+        var terracedHouse = new House()
+        {
+            TypeHouse = "Terraced House",
+            Adventage = "having neighbours",
+            Disadventage = "shared walls with neighbors and  limited outdoor space",
+            Tolerance = 79,
+            FoundedYear = 1745,
+        };
+        mansion.DisplayHouse();
+        mansion.AgeHouse();
+        bungalow.DisplayHouse();
+        bungalow.AgeHouse();
+        cottage.DisplayHouse();
+        cottage.AgeHouse();
+        farmhouse.DisplayHouse();
+        farmhouse.AgeHouse();
+        mobileHouse.DisplayHouse();
+        mobileHouse.AgeHouse();
+        townHouse.DisplayHouse();
+        townHouse.AgeHouse();
+        terracedHouse.DisplayHouse();
+        terracedHouse.AgeHouse();
+    }
+}
+
