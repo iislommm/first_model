@@ -1,0 +1,99 @@
+namespace ConsoleApp1;
+
+internal class Program
+{
+
+    static void Main(string[] args)
+    {
+        var cznBurak = new Restaurant()
+        {
+            Name = "CZN Burak",
+            Rate = 4.8,
+            Country = "Turkey",
+            Type = "luxurious",
+            WorkersCount = 1000,
+            FoodType = " National food (Turkish cuisine)",
+        };
+        var nusrEt = new Restaurant()
+        {
+            Name = "Nusr - Et",
+            Rate = 4.7,
+            Country = "Turkey",
+            Type = "luxurious",
+            WorkersCount = 800,
+            FoodType = "National food (Steaks and grilled meats)",
+        };
+        var miku = new Restaurant()
+        {
+            Name = "Miku",
+            Rate = 4.7,
+            Country = "Canada",
+            Type = "luxurious",
+            WorkersCount = 200,
+            FoodType = "National food (Japanese cuisine, specializing in sushi)",
+        };
+        var leBernardin = new Restaurant()
+        {
+            Name = "Le Bernardin",
+            Rate = 4.8,
+            Country = "USA",
+            Type = "luxurious",
+            WorkersCount = 180,
+            FoodType = "National food (French cuisine, seafood-focused)",
+        };
+        var theFastDuck = new Restaurant()
+        {
+            Name = "The Fast Duck",
+            Rate = 4.9,
+            Country = "UK",
+            Type = "luxurious",
+            WorkersCount = 180,
+            FoodType = "National food (Modern British cuisine)",
+        };
+        var francescana = new Restaurant()
+        {
+            Name = "The Fast Duck",
+            Rate = 4.9,
+            Country = "Italy",
+            Type = "luxurious",
+            WorkersCount = 100,
+            FoodType = "National food (Italian coisine)",
+        };
+        var sushiSaito = new Restaurant()
+        {
+            Name = "Sushi Saito",
+            Rate = 4.9,
+            Country = "Japan",
+            Type = "luxurious",
+            WorkersCount = 50,
+            FoodType = "National food (Food)",
+        };
+        var puijon = new Restaurant()
+        {
+            Name = "Puijon",
+            Rate = 4.7,
+            Country = "Mexico",
+            Type = "luxurious",
+            WorkersCount = 200,
+            FoodType = "National food (Mexican cuisine)",
+        };
+        cznBurak.DisplayRestaurant();
+        cznBurak.FamousFood();
+        nusrEt.DisplayRestaurant();
+        nusrEt.FamousFood();
+        miku.DisplayRestaurant();
+        miku.FamousFood();
+        leBernardin.DisplayRestaurant();
+        leBernardin.FamousFood();
+        theFastDuck.DisplayRestaurant();
+        theFastDuck.FamousFood();
+        francescana.DisplayRestaurant();
+        francescana.FamousFood();
+        sushiSaito.DisplayRestaurant();
+        sushiSaito.FamousFood();
+        puijon.DisplayRestaurant();
+        puijon.FamousFood();
+
+    }
+}
+
