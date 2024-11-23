@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\bin\Debug\net8.0\darrs8.exe
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\bin\Debug\net8.0\darrs8.deps.json
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\bin\Debug\net8.0\darrs8.runtimeconfig.json
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\bin\Debug\net8.0\darrs8.dll
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\bin\Debug\net8.0\darrs8.pdb
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\darrs8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\darrs8.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\darrs8.AssemblyInfo.cs
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\darrs8.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\darrs8.sourcelink.json
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\darrs8.dll
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\refint\darrs8.dll
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\darrs8.pdb
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\darrs8.genruntimeconfig.cache
+C:\Users\user\Desktop\project\firstModul\first_model\homeworks\darrs8\obj\Debug\net8.0\ref\darrs8.dll
