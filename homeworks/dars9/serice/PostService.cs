@@ -10,7 +10,7 @@ public class PostServis
     private List<Post> posts;
     public PostServis()
     {
-        var posts = new List<Post>();
+        0 posts = new List<Post>();
     }
 
     public Post AddNewPost(Post post)
